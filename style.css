@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 95%;
+    background: linear-gradient(rgba(94, 96, 236, 0.836) 10%, rgba(50, 5, 252, 0.151), rgba(241, 241, 237, 0.26) 60%, rgba(129, 129, 113, 0.788) 80%);
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxmiddle {
+    display: flex;
+    height: 250px;
+    width: 500px;
+    background-color: tomato;
+    border: solid tomato 10px;
+    margin-left: 450px;
+}
+
+.window {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    background-color: rgb(221, 216, 216);
+    margin-top: 80px;
+    height: 100px;
+    width: 150px;
+}
+
+.door {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(221, 216, 216);
+    height: 178px;
+    width: 90px;
+    margin-top: 80px;
+}
+
+.door .fram {
+    margin: 2px;
+    height: 177px;
+}
+
+.foot {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+    height: 20px;
+    width: 800px;
+    margin-left: 500px;
+    margin-top: 600px;
+}
+
+.fram {
+    flex: 1;
+    height: 1px;
+    width: 145px;
+    background-color: gray;
+    margin: 2px;
+}
+
+.moon {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at center, rgb(255, 51, 0) 10%, #fc0 60%, #ff0 80%);
+    margin-left: 80%;
+    margin-top: 50px;
+}
+
+.triangle {
+    position: relative;
+    margin: auto;
+    margin-left: 500px;
+    height: 50px;
+    margin-bottom: -200px;
+    border-left: 400px solid transparent;
+    border-right: 400px solid transparent;
+    border-bottom: 80px solid rgb(92, 87, 87);
+}
+
+.top {
+    position: relative;
+    margin-left: 50px;
+    border-left: 70px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 60px solid rgb(255, 0, 64);
+    width: 150px;
+}
+
+.carwindow {
+    position: absolute;
+    margin-left: -60px;
+}
+
+.frontwindow {
+    margin-top: 4px;
+    border-left: 58px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid rgba(241, 241, 237, 0.904);
+    width: 145px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    width: 450px;
+    background-color: rgb(255, 0, 64);
+    margin-left: 20px;
+    border-radius: 12px 30px 4px 4px;
+}
+
+.car {
+    position: absolute;
+    margin-top: 450px;
+}
+
+.bar {
+    position: absolute;
+    height: 50px;
+    width: 5px;
+    background-color: rgb(255, 0, 64);
+    margin-left: 75px;
+}
+
+.tire1 {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(17, 16, 16, 0.918);
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 80px;
+    border: solid rgb(5, 5, 5);
+    border: solid black 10px;
+}
+
+.tire2 {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(5, 5, 5, 0.918);
+    border-radius: 50%;
+    margin-left: 250px;
+    margin-top: 80px;
+    border: solid black 10px;
+}
+
+.new {
+    margin-top: 15px;
+    border-left: 1000px solid transparent;
+    border-right: 1000px solid transparent;
+    border-bottom: 80px solid rgb(92, 87, 87);
+    height: 150px;
+}
